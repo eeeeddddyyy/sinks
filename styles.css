@@ -34,7 +34,7 @@ li a {
 li a:hover { 
     width: 100%; 
     left: 0; 
-    background: #f6e8a8;
+    background: #efe3b3;
 }
 h1 {
    font-weight: 400;
@@ -92,19 +92,39 @@ h2, .container .text {
    font-size: 70px;
    color: #d2b48c;
    display: inline-block;
-   text-align: center;
    max-width: 600px;
    margin-left: 20px;
-   margin-bottom: 80px;
    padding: 15px 20px;
+   margin-bottom: 8%;
 }
 p1 {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 19px;
     color: #d2b48c;
     display: inline-block;
     padding: 15px 20px;
     text-align: center;
     letter-spacing: 0.11em;
-    text-align: justify;
+}
+.container .images-left {
+    float: right;
+    margin-bottom: 80px;
+} 
+.another-class h2 {
+    position: relative;
+    left: 400px;
+    top: 150px;
+    margin-bottom: 170px;
+    font-size: 50px;
+}
+.another-class p1 {
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #efe3b3;
 }
