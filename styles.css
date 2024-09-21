@@ -1,35 +1,110 @@
-/* Outdated CSS */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    display: block;
+    margin: 10;
+    padding: 10;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: #f8f5e6;
+    align-items: center;
+    gap: 30px;
 }
-
-h1 {
-    margin: 0;
-}
-
 ul {
-    margin: 0;
-    padding: 0;
+    margin: 15px auto 0; 
+    padding: 1px; 
+    list-style: none; 
+    display: table;
+    text-align: center;
+    font-weight: 700;
 }
-
-li {
-    margin: 0;
-    padding: 0;
+li  {
+    display: table-cell; 
+    position: relative; 
+    padding: 15px;
 }
-
-p {
-    margin: 0;
-    padding: 0;
+li a {
+    color: #bc8a5f;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.18em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
 }
-
+li a:hover { 
+    width: 100%; 
+    left: 0; 
+    background: #f6e8a8;
+}
+h1 {
+   font-weight: 400;
+   font-size: 140px;
+   color: #d2b48c;
+   display: inline;
+   padding: 10px;
+   margin-top: 50px;
+   margin-left: 100px;
+   text-align: center;
+   margin-bottom: 30px;
+}
 img {
-    width: 100%;
-    height: auto;
+    border-radius: 10%;
+    width: 360px;
+    height: 410px;
+    float: center;
+    box-shadow: 0 0 10px 10px#b59975 inset, 
+    2em 2em 2em #d2b48c, -2em -2em 2em #f7efca, 
+    3em -2em 2em #e5d2ab, -2em 2em 1em #d2b48c;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
-
-table {
-    width: 100%;
-    border-collapse: collapse;
+p {
+   font-weight: 700;
+   font-size: 17px;
+   color: #d2b48c;
+   display: inline;
+   padding: 15px 20px;
+   text-align: center;
+   letter-spacing: 0.18em;
+}
+.container {
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 370px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.container .images {
+    display: inline;
+    gap: 20px;
+}
+.container img {
+    max-width: 440px;
+    height: auto;
+    margin-right: 30px;
+    align-items: right;
+    border-radius: 15px;
+}
+h2, .container .text {
+   font-weight: 400;
+   font-size: 70px;
+   color: #d2b48c;
+   display: inline-block;
+   text-align: center;
+   max-width: 600px;
+   margin-left: 20px;
+   margin-bottom: 80px;
+   padding: 15px 20px;
+}
+p1 {
+    font-weight: 700;
+    font-size: 17px;
+    color: #d2b48c;
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    text-align: justify;
 }
