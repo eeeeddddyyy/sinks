@@ -96,7 +96,6 @@ footer {
         flex: 1 1 calc(50% - 40px); 
     }
 }
-
 @media (max-width: 600px) {
     .image-container, .images, .pic {
         flex: 1 1 calc(50% - 40px); 
